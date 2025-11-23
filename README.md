@@ -113,19 +113,19 @@ Truy cập trình duyệt tại địa chỉ: http://127.0.0.1:5000
 
   SmartFireGuard/
   │
-  ├── app.py                # [Main] Mã nguồn chính (Flask Server + Logic)
-  ├── train_model.py        # Code huấn luyện mô hình AI
+  ├── app.py                
+  ├── train_model.py        
   │
-  ├── arduino_code.ino      # Firmware nạp cho Arduino
+  ├── arduino_code.ino      
   │
-  ├── dataset/              # Dữ liệu hình ảnh
-  │   ├── fire/             # Ảnh chứa lửa
-  │   └── non_fire/         # Ảnh bình thường
+  ├── dataset/              
+  │   ├── fire/             
+  │   └── non_fire/         
   │
   ├── templates/
-  │   └── index.html        # Giao diện Dashboard
+  │   └── index.html        
   │
-  └── README.md             # Tài liệu hướng dẫn
+  └── README.md             
 
 ## ⚠️ Khắc phục lỗi thường gặp
 **1.Lỗi ModuleNotFoundError:**
